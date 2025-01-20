@@ -1,7 +1,14 @@
 
 const Header = ()=>{
+
+const headerStyle = {
+    backgroundColor: "mediumblue",
+    color: "#fff"
+    // height: "50cm"
+}; 
+
 return (
-    <header>
+    <header className="header">
         <h1>Things To Learn Before December List</h1>
     </header>
 )

@@ -1,7 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
 import Header from './Header'
 import Content from './Content';
+import Footer from './Footer';
+import './index.css';
 
 function App() { 
   return (
@@ -23,8 +25,12 @@ function App() {
         </a> */}
         {/* <p>My name is {myName} and I am a {profession} and I own the below {myNumbers}</p> */}
       {/* </header> */} */
+       <Footer></Footer>
     </div>
-  );
+//     <div>
+// /
+//     </div>
+    );
 }
 
 export default App;
