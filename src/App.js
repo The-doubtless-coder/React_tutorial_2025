@@ -1,20 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header'
+import Content from './Content';
 
-function App() {
-  const myName = "IAN __"
-  const profession = "Software Engineer"
-  const myNumbers = [1, 2, 3, 4, 5, 6,7];
-
-  const handleNames = ()=>{
-    const names = ["IAN", "KEN", "MARTIN", "JOHNSON", "KIMBERLY", "RUPERT"];
-    const randomInt = Math.floor(Math.random()*3);
-    return names[randomInt];
-  }
-  
+function App() { 
   return (
     <div className="App">
-      <header className="App-header">
+      <Header/>
+      <Content></Content>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hello {handleNames()}!
@@ -28,7 +22,7 @@ function App() {
           {/* Learn React
         </a> */}
         {/* <p>My name is {myName} and I am a {profession} and I own the below {myNumbers}</p> */}
-      </header>
+      {/* </header> */} */
     </div>
   );
 }
